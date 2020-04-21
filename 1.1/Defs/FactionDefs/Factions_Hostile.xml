@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef>
+    <defName>ArachneMilitiaBase</defName>
+    <label>Arache Militia</label>
+    <description>Arachne Militia Camp</description>
+    <pawnSingular>militia</pawnSingular>
+    <pawnsPlural>militias</pawnsPlural>
+    <listOrderPriority>10</listOrderPriority>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxCountAtGameStart>1</maxCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <autoFlee>false</autoFlee>
+    <leaderTitle>captain</leaderTitle>
+    <colorSpectrum>
+      <li>(1, 1, 1)</li>
+    </colorSpectrum>
+    <fixedName>Arachne Militia</fixedName>
+    <factionNameMaker>NamerFactionPirate</factionNameMaker>
+    <settlementNameMaker>NamerSettlementPirate</settlementNameMaker>
+    <techLevel>Spacer</techLevel>
+    <startingGoodwill>-70~-20</startingGoodwill>
+    <naturalColonyGoodwill>-50~50</naturalColonyGoodwill>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Pirate</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <geneticVariance>0.8</geneticVariance>
+    <hairTags>
+      <li>Punk</li>
+      <li>Urban</li>
+      <li>Rural</li>
+    </hairTags>
+    <caravanTraderKinds>
+      <li>Caravan_Outlander_CombatSupplier</li>
+      <li>Caravan_Outlander_PirateMerchant</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_Outlander_Standard</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Outlander_Standard</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <!-- Normal fights, ranged with melee mix-ins -->
+        <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <Arachne_Settler>10</Arachne_Settler>
+          <Arachne_Colonist>10</Arachne_Colonist>
+          <ArachneMilitia_EMP>0.25</ArachneMilitia_EMP>
+          <ArachneMilitia_Smoke>0.25</ArachneMilitia_Smoke>
+          <ArachneMilitia_Destructive>2</ArachneMilitia_Destructive>
+          <ArachneMilitia_Gunner>10</ArachneMilitia_Gunner>
+          <ArachneMilitia_Heavy>6</ArachneMilitia_Heavy>
+          <ArachneMilitia_Slasher>3</ArachneMilitia_Slasher>
+          <ArachneMilitia_Sniper>7</ArachneMilitia_Sniper>
+          <ArachneMilitia_Assassin>10</ArachneMilitia_Assassin>
+          <ArachneMilitia_Assault>10</ArachneMilitia_Assault>
+          <Arachne_Scout>5</Arachne_Scout>
+          <ArachneMilitia_Elite>5</ArachneMilitia_Elite>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, melee-only -->
+        <kindDef>Combat</kindDef>
+        <commonality>30</commonality>
+        <disallowedStrategies>
+          <li>Siege</li>
+        </disallowedStrategies>
+        <options>
+          <ArachneMilitia_Slasher>10</ArachneMilitia_Slasher>
+          <ArachneMilitia_Elite>5</ArachneMilitia_Elite>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, ranged only -->
+        <kindDef>Combat</kindDef>
+        <commonality>20</commonality>
+        <options>
+          <Arachne_Settler>10</Arachne_Settler>
+          <Arachne_Colonist>10</Arachne_Colonist>
+          <ArachneMilitia_EMP>0.25</ArachneMilitia_EMP>
+          <ArachneMilitia_Smoke>0.25</ArachneMilitia_Smoke>
+          <ArachneMilitia_Destructive>2</ArachneMilitia_Destructive>
+          <ArachneMilitia_Gunner>10</ArachneMilitia_Gunner>
+          <ArachneMilitia_Heavy>6</ArachneMilitia_Heavy>
+          <ArachneMilitia_Sniper>7</ArachneMilitia_Sniper>
+          <ArachneMilitia_Assault>10</ArachneMilitia_Assault>
+          <Arachne_Scout>5</Arachne_Scout>
+          <ArachneMilitia_Elite>5</ArachneMilitia_Elite>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, explosives with ranged mix-ins -->
+        <kindDef>Combat</kindDef>
+        <commonality>15</commonality>
+        <disallowedStrategies>
+          <li>Siege</li>
+        </disallowedStrategies>
+        <options>
+          <ArachneMilitia_EMP>0.5</ArachneMilitia_EMP>
+          <ArachneMilitia_Smoke>0.5</ArachneMilitia_Smoke>
+          <ArachneMilitia_Destructive>10</ArachneMilitia_Destructive>
+          <ArachneMilitia_Gunner>1</ArachneMilitia_Gunner>
+          <ArachneMilitia_Heavy>10</ArachneMilitia_Heavy>
+          <ArachneMilitia_Assassin>1</ArachneMilitia_Assassin>
+          <ArachneMilitia_Assault>1</ArachneMilitia_Assault>
+          <Arachne_Scout>1</Arachne_Scout>
+          <ArachneMilitia_Elite>1</ArachneMilitia_Elite>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, snipers only -->
+        <kindDef>Combat</kindDef>
+        <commonality>10</commonality>
+        <options>
+          <ArachneMilitia_Sniper>10</ArachneMilitia_Sniper>
+        </options>
+      </li>
+      <li>
+        <!-- Normal fights, drifters only (very rare) -->
+        <kindDef>Combat</kindDef>
+        <commonality>2.5</commonality>
+        <maxTotalPoints>1000</maxTotalPoints>
+        <options>
+          <ArachneMilitia_Gunner_Acidifier>10</ArachneMilitia_Gunner_Acidifier>
+        </options>
+      </li>
+      <li>
+        <!-- Base defense, mainly ranged with melee mix-ins -->
+        <kindDef>Settlement</kindDef>
+        <options>
+          <ArachneMilitia_Heavy>3</ArachneMilitia_Heavy>
+          <ArachneMilitia_Sniper_Acidifier>10</ArachneMilitia_Sniper_Acidifier>
+          <ArachneMilitia_Destructive>2</ArachneMilitia_Destructive>
+          <ArachneMilitia_Slasher>3</ArachneMilitia_Slasher>
+          <ArachneMilitia_Sniper>10</ArachneMilitia_Sniper>
+          <ArachneMilitia_Gunner>10</ArachneMilitia_Gunner>
+          <ArachneMilitia_Assault>10</ArachneMilitia_Assault>
+          <Arachne_Scout>5</Arachne_Scout>
+          <ArachneMilitia_Elite>10</ArachneMilitia_Elite>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <factionIconPath>World/HostileBase</factionIconPath>
+    <settlementTexturePath>World/HostileBase</settlementTexturePath>
+  </FactionDef>
+
+</Defs>
