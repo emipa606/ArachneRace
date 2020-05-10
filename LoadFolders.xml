@@ -6,5 +6,6 @@
     <v1.1>
         <li>Common</li>
         <li>1.1</li>
+        <li IfModActive="goudaquiche.BloodAndStains">BnSPatch</li>
     </v1.1>
 </loadFolders>
