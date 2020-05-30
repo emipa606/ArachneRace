@@ -57,6 +57,28 @@
                             <modExtensions>
                                 <li Class="O21Toolbox.AutoHeal.DefModExtension_AutoHealProps">
                                     <healTicks>2000</healTicks>
+                                    <cureTicks>6000</cureTicks>
+                                    <removeInfections>true</removeInfections>
+                                    <ignoreWhenHealing>
+                                        <li>GutWorms</li>
+                                        <li>MuscleParasites</li>
+                                    </ignoreWhenHealing>
+                                    <infectionsAllowed>
+                                        <li>GutWorms</li>
+                                        <li>MuscleParasites</li>
+                                        <li>ToxicBuildup</li>
+                                        <li>CryptosleepSickness</li>
+                                        <li>WoundInfection</li>
+                                        <li>Flu</li>
+                                        <li>Plague</li>
+                                        <li>Malaria</li>
+                                        <li>SleepingSickness</li>
+                                        <li>FibrousMechanites</li>
+                                        <li>SensoryMechanites</li>
+                                        <li>BloodRot</li>
+                                    </infectionsAllowed>
+                                    <explicitRemovals>
+                                    </explicitRemovals>
                                     <regrowParts>true</regrowParts>
                                     <growthText>Regrowing</growthText>
                                     <protoBodyPart>Arachne_ProtoBodypart</protoBodyPart>

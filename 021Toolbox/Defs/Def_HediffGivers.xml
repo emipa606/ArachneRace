@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <HediffGiverSetDef>
+        <defName>Arachne_Regen_Giver</defName>
+        <hediffGivers>
+            <li Class="O21Toolbox.HediffGiver_Racial">
+                <hediff>Arachne_Regen</hediff>
+            </li>
+        </hediffGivers>
+    </HediffGiverSetDef>
+</Defs>
