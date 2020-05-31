@@ -18,7 +18,7 @@
             <li Class="O21Toolbox.AutoHeal.DefModExtension_AutoHealProps">
                 <healTicks>2000</healTicks>
                 <cureTicks>6000</cureTicks>
-                <removeInfections>true</removeInfections>
+                <removeInfections>false</removeInfections>
                 <ignoreWhenHealing>
                     <li>GutWorms</li>
                     <li>MuscleParasites</li>
