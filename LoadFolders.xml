@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <loadFolders>
-    <default>
+    <v1.0>
         <li>/</li>
         <li>Common</li>
-    </default>
+    </v1.0>
     <v1.1>
         <li>/</li>
         <li>Common</li>
