@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <PawnKindDef Abstract="True" Name="BaseArachnePawnKind">
+        <race>Arachne</race>
+        <combatPower>30</combatPower>
+        <isFighter>false</isFighter>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <forceNormalGearQuality>true</forceNormalGearQuality>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="BaseArachnePawnKind">
+        <defName>Arachne_PlayerColonist</defName>
+        <label>colonist</label>
+        <defaultFactionType>ArachnePlayerColony</defaultFactionType>
+        <apparelTags>
+            <li>Arachne_Apparel</li>
+            <li>IndustrialBasic</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>Arachne_Shirt</li>
+        </apparelRequired>
+        <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+        <apparelMoney>350~1200</apparelMoney>
+        <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+        <techHediffsChance>0.03</techHediffsChance>
+        <techHediffsMoney>50~1200</techHediffsMoney>
+        <techHediffsTags>
+            <li>Simple</li>
+            <li>Advanced</li>
+            <li>ImplantEmpireCommon</li>
+        </techHediffsTags>
+    </PawnKindDef>
+
+</Defs>

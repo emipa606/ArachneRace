@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <loadFolders>
     <default>
+        <li>/</li>
         <li>Common</li>
     </default>
     <v1.1>
+        <li>/</li>
         <li>Common</li>
         <li>1.1</li>
         <li IfModActive="goudaquiche.BloodAndStains">BnSPatch</li>
         <li IfModActive="neronix17.toolbox">021Toolbox</li>
     </v1.1>
+    <v1.2>
+        <li>/</li>
+        <li>Common</li>
+        <li>1.2</li>
+        <li IfModActive="goudaquiche.BloodAndStains">BnSPatch</li>
+        <li IfModActive="neronix17.toolbox">021Toolbox</li>
+    </v1.2>
 </loadFolders>
