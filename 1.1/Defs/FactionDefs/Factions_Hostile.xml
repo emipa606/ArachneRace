@@ -160,6 +160,14 @@
           <ArachneMilitia_Elite>10</ArachneMilitia_Elite>
         </options>
       </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <ArachneMilitia_Slasher>20</ArachneMilitia_Slasher>
+          <ArachneMilitia_Gunner>10</ArachneMilitia_Gunner>
+          <ArachneMilitia_Elite>10</ArachneMilitia_Elite>
+        </options>
+      </li>
     </pawnGroupMakers>
     <factionIconPath>World/HostileBase</factionIconPath>
     <settlementTexturePath>World/HostileBase</settlementTexturePath>
