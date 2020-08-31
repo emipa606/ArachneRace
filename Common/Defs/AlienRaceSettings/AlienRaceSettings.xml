@@ -9,7 +9,7 @@
             <li>Arachne_Settler</li>
             <li>Arachne_Colonist</li>
           </kindDefs>
-          <chance>30.0</chance>
+          <chance>10.0</chance>
         </li>
       </alienslavekinds>
       <alienrefugeekinds>
@@ -17,7 +17,7 @@
           <kindDefs>
             <li>Arachne_Settler</li>
           </kindDefs>
-          <chance>20.0</chance>
+          <chance>10.0</chance>
         </li>
       </alienrefugeekinds>
       <startingColonists>
@@ -44,7 +44,7 @@
                 <li>Arachne_Colonist</li>
                 <li>Arachne_Soldier</li>
               </kindDefs>
-              <chance>20.0</chance>
+              <chance>10.0</chance>
             </li>
           </pawnKindEntries>
           <factionDefs>
