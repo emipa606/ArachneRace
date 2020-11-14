@@ -315,8 +315,7 @@
       <thoughtSettings>
 
         <cannotReceiveThoughts>
-          <li>TrappedIndoors</li>
-          <li>StuckIndoors</li>
+          <li>NeedOutdoors</li>
           <li>Naked</li>
         </cannotReceiveThoughts>
 
