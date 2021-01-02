@@ -62,7 +62,7 @@
       <li>
         <!-- Normal fights, ranged with melee mix-ins -->
         <kindDef>Combat</kindDef>
-        <commonality>5</commonality>
+        <commonality>70</commonality>
         <options>
           <Arachne_Settler>10</Arachne_Settler>
           <Arachne_Colonist>10</Arachne_Colonist>
@@ -73,28 +73,28 @@
           <ArachneMilitia_Heavy>6</ArachneMilitia_Heavy>
           <ArachneMilitia_Slasher>3</ArachneMilitia_Slasher>
           <ArachneMilitia_Sniper>7</ArachneMilitia_Sniper>
-          <ArachneMilitia_Assassin>1</ArachneMilitia_Assassin>
-          <ArachneMilitia_Assault>1</ArachneMilitia_Assault>
-          <Arachne_Scout>1</Arachne_Scout>
-          <ArachneMilitia_Elite>1</ArachneMilitia_Elite>
+          <ArachneMilitia_Assassin>2</ArachneMilitia_Assassin>
+          <ArachneMilitia_Assault>2</ArachneMilitia_Assault>
+          <Arachne_Scout>2</Arachne_Scout>
+          <ArachneMilitia_Elite>3</ArachneMilitia_Elite>
         </options>
       </li>
       <li>
         <!-- Normal fights, melee-only -->
         <kindDef>Combat</kindDef>
-        <commonality>5</commonality>
+        <commonality>30</commonality>
         <disallowedStrategies>
           <li>Siege</li>
         </disallowedStrategies>
         <options>
           <ArachneMilitia_Slasher>10</ArachneMilitia_Slasher>
-          <ArachneMilitia_Elite>0.5</ArachneMilitia_Elite>
+          <ArachneMilitia_Elite>3</ArachneMilitia_Elite>
         </options>
       </li>
       <li>
         <!-- Normal fights, ranged only -->
         <kindDef>Combat</kindDef>
-        <commonality>5</commonality>
+        <commonality>20</commonality>
         <options>
           <Arachne_Settler>10</Arachne_Settler>
           <Arachne_Colonist>10</Arachne_Colonist>
@@ -104,15 +104,15 @@
           <ArachneMilitia_Gunner>10</ArachneMilitia_Gunner>
           <ArachneMilitia_Heavy>6</ArachneMilitia_Heavy>
           <ArachneMilitia_Sniper>7</ArachneMilitia_Sniper>
-          <ArachneMilitia_Assault>0.5</ArachneMilitia_Assault>
-          <Arachne_Scout>0.5</Arachne_Scout>
-          <ArachneMilitia_Elite>1</ArachneMilitia_Elite>
+          <ArachneMilitia_Assault>2</ArachneMilitia_Assault>
+          <Arachne_Scout>2</Arachne_Scout>
+          <ArachneMilitia_Elite>3</ArachneMilitia_Elite>
         </options>
       </li>
       <li>
         <!-- Normal fights, explosives with ranged mix-ins -->
         <kindDef>Combat</kindDef>
-        <commonality>5</commonality>
+        <commonality>15</commonality>
         <disallowedStrategies>
           <li>Siege</li>
         </disallowedStrategies>
@@ -122,9 +122,9 @@
           <ArachneMilitia_Destructive>10</ArachneMilitia_Destructive>
           <ArachneMilitia_Gunner>1</ArachneMilitia_Gunner>
           <ArachneMilitia_Heavy>10</ArachneMilitia_Heavy>
-          <ArachneMilitia_Assassin>0.5</ArachneMilitia_Assassin>
-          <ArachneMilitia_Assault>0.5</ArachneMilitia_Assault>
-          <Arachne_Scout>0.5</Arachne_Scout>
+          <ArachneMilitia_Assassin>1</ArachneMilitia_Assassin>
+          <ArachneMilitia_Assault>1</ArachneMilitia_Assault>
+          <Arachne_Scout>1</Arachne_Scout>
           <ArachneMilitia_Elite>1</ArachneMilitia_Elite>
         </options>
       </li>
