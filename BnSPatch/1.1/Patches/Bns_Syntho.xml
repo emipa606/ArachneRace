@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- If the Syntho mod is active,-->
+  <!-- Adding footprints parameters for syntho when they step in the Arachne blood filth-->
+  <!-- Adding footprints parameters for Arachne when they step in the syntho blood filth-->
+  <Operation Class="PatchOperationFindMod">
+    <success>Normal</success>
+    <mods>
+      <li>Syntho</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <!-- if Arachne walk into syntho blood -->
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/HediffDef[defName="Hediff_Arachne_Stain_Footprint"]/comps/li/footprint/li[defName="cyan_fluid"]</xpath>
+          <!-- if we dont find cyan fluid def, we add it -->
+          <nomatch Class="PatchOperationAdd">
+            <success>Normal</success>
+            <xpath>/Defs/HediffDef[defName="Hediff_Arachne_Stain_Footprint"]/comps/li/footprint</xpath>
+            <value>
+              <li>
+                <defName>cyan_fluid</defName>
+                <triggerOnFilthDef>
+                  <li>SynthoBlood</li>
+                </triggerOnFilthDef>
+                <moteDef>Mote_AR_Cyan_Footprint</moteDef>
+              </li>
+            </value>
+          </nomatch>
+          <!-- if we find cyan fluid def, we add triggerOnFilthDef SynthoBlood-->
+          <match Class="PatchOperationAdd">
+            <success>Normal</success>
+            <xpath>/Defs/HediffDef[defName="Hediff_Arachne_Stain_Footprint"]/comps/li/footprint/li[defName="cyan_fluid"]/triggerOnFilthDef</xpath>
+            <value>
+              <li>SynthoBlood</li>
+            </value>
+          </match>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

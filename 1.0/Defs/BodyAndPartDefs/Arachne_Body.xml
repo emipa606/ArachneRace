@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-
   <BodyDef>
     <defName>Arachne_body</defName>
     <label>arachne</label>
@@ -120,7 +118,7 @@
               <groups>
                 <li>UpperHead</li>
                 <li>FullHead</li>
-								<li>HeadAttackTool</li>
+                <li>HeadAttackTool</li>
               </groups>
               <parts>
                 <li>
@@ -413,7 +411,7 @@
             <li>Waist</li>
           </groups>
         </li>
-		<li>
+        <li>
           <def>Leg</def>
           <customLabel>front left leg</customLabel>
           <coverage>0.05</coverage>
@@ -446,12 +444,12 @@
               <coverage>0.04</coverage>
               <groups>
                 <li>Feet</li>
-				<li>ArachneClaw</li>
+                <li>ArachneClaw</li>
               </groups>
             </li>
           </parts>
         </li>
-		<li>
+        <li>
           <def>Leg</def>
           <customLabel>front right leg</customLabel>
           <coverage>0.05</coverage>
@@ -484,12 +482,12 @@
               <coverage>0.04</coverage>
               <groups>
                 <li>Feet</li>
-				<li>ArachneClaw</li>
+                <li>ArachneClaw</li>
               </groups>
             </li>
           </parts>
         </li>
-		<li>
+        <li>
           <def>Leg</def>
           <customLabel>middle left leg</customLabel>
           <coverage>0.05</coverage>
@@ -526,7 +524,7 @@
             </li>
           </parts>
         </li>
-		<li>
+        <li>
           <def>Leg</def>
           <customLabel>middle right leg</customLabel>
           <coverage>0.05</coverage>
@@ -563,7 +561,7 @@
             </li>
           </parts>
         </li>
-		<li>
+        <li>
           <def>Leg</def>
           <customLabel>back left leg</customLabel>
           <coverage>0.05</coverage>
@@ -600,7 +598,7 @@
             </li>
           </parts>
         </li>
-		<li>
+        <li>
           <def>Leg</def>
           <customLabel>back right leg</customLabel>
           <coverage>0.05</coverage>
@@ -640,6 +638,4 @@
       </parts>
     </corePart>
   </BodyDef>
-  
-  
 </Defs>

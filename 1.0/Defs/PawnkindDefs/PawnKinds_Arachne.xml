@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <PawnKindDef Abstract="True" Name="BaseArachnePawnKind">
     <race>Arachne</race>
@@ -42,10 +42,7 @@
     </techHediffsTags>
     <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
   </PawnKindDef>
-
-
   <!-- ============================ Arachne Base ========================== -->
-
   <PawnKindDef Name="ArachneBase" Abstract="True">
     <defaultFactionType>ArachneColony</defaultFactionType>
     <race>Arachne</race>
@@ -56,9 +53,7 @@
     <baseRecruitDifficulty>0.96</baseRecruitDifficulty>
     <apparelAllowHeadgearChance>0.5</apparelAllowHeadgearChance>
   </PawnKindDef>
-
   <!-- ============================ Arachne Civilian Base ========================== -->
-
   <PawnKindDef Name="ArachneCivBase" ParentName="ArachneBase" Abstract="True">
     <combatPower>25</combatPower>
     <race>Arachne</race>
@@ -108,9 +103,7 @@
       </subOptionsChooseOne>
     </inventoryOptions>
   </PawnKindDef>
-
   <!-- ============================ Arachne Civilians ========================== -->
-
   <PawnKindDef ParentName="ArachneCivBase">
     <defName>ArachneColonist</defName>
     <label>colonist</label>
@@ -134,7 +127,6 @@
       <li>MedievalMeleeAdvanced</li>
     </weaponTags>
   </PawnKindDef>
-
   <PawnKindDef ParentName="ArachneCivBase">
     <defName>ArachneSettler</defName>
     <label>settler</label>
@@ -164,7 +156,6 @@
       <max>15000</max>
     </weaponMoney>
   </PawnKindDef>
-
   <PawnKindDef ParentName="ArachneCivBase">
     <defName>ArachneTrader</defName>
     <label>trader</label>
@@ -191,7 +182,6 @@
       <li>SpacerGun</li>
     </weaponTags>
   </PawnKindDef>
-
   <PawnKindDef ParentName="ArachneCivBase">
     <defName>ArachneSlave</defName>
     <label>slave</label>
@@ -207,7 +197,6 @@
       <max>0</max>
     </weaponMoney>
   </PawnKindDef>
-
   <PawnKindDef ParentName="ArachneCivBase">
     <defName>ArachneDefector</defName>
     <label>defector</label>
@@ -227,7 +216,6 @@
       <li>MedievalMeleeDecent</li>
     </weaponTags>
   </PawnKindDef>
-
   <PawnKindDef ParentName="ArachneCivBase">
     <defName>ArachneRefugee</defName>
     <label>refugee</label>
@@ -242,9 +230,7 @@
       <li>ArachneSword</li>
     </weaponTags>
   </PawnKindDef>
-
   <!-- ============================ Arachne Soldier ========================== -->
-
   <PawnKindDef ParentName="ArachneCivBase">
     <defName>ArachneSoldier</defName>
     <label>soldier</label>
@@ -305,10 +291,7 @@
       </subOptionsChooseOne>
     </inventoryOptions>
   </PawnKindDef>
-
-
   <!-- ============================ Arachne Milita Base ========================== -->
-
   <PawnKindDef Name="ArachneMilBase" ParentName="ArachneBase" Abstract="True">
     <defaultFactionType>ArachneMilitiaBase</defaultFactionType>
     <chemicalAddictionChance>0</chemicalAddictionChance>
@@ -364,9 +347,7 @@
       </subOptionsChooseOne>
     </inventoryOptions>
   </PawnKindDef>
-
   <!-- ============================ Arachne Military ========================== -->
-
   <PawnKindDef ParentName="ArachneMilBase">
     <defName>ArachneElite</defName>
     <label>elite</label>
@@ -420,7 +401,6 @@
       <max>2</max>
     </combatEnhancingDrugsCount>
   </PawnKindDef>
-
   <PawnKindDef ParentName="ArachneMilBase">
     <defName>ArachneMilitia</defName>
     <label>militia</label>
@@ -487,7 +467,6 @@
       </subOptionsChooseOne>
     </inventoryOptions>
   </PawnKindDef>
-
   <PawnKindDef ParentName="ArachneMilBase">
     <defName>ArachneAssault</defName>
     <label>assault team</label>
@@ -551,7 +530,6 @@
       </subOptionsChooseOne>
     </inventoryOptions>
   </PawnKindDef>
-
   <PawnKindDef ParentName="ArachneMilBase">
     <defName>ArachneAssassin</defName>
     <label>assassin</label>
@@ -613,5 +591,4 @@
       </subOptionsChooseOne>
     </inventoryOptions>
   </PawnKindDef>
-
 </Defs>

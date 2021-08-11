@@ -82,7 +82,7 @@
         <li Class="ScenPart_GameStartDialog">
           <def>GameStartDialog</def>
           <text>Your colony ship was attacked by pirates! You don't remember what exactly happened after you set off from your home planet. Confused and dazed, the mission is still the same, to colonize this unknown rimworld.</text>
-            <textKey>GameStartDialog</textKey>
+          <textKey>GameStartDialog</textKey>
           <closeSound>GameStartSting</closeSound>
         </li>
       </parts>

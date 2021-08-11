@@ -1,155 +1,152 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
-    <Operation Class="PatchOperationFindMod">
-        <mods>
-            <li>[O21] Toolbox</li>
-        </mods>
-        <match Class="PatchOperationSequence">
-            <!--<success>Always</success> -->
-            <operations>
-                <li Class="PatchOperationAdd">
-                    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Arachne"]/race/hediffGiverSets</xpath>
-                    <value>
-                        <li>
-                            <li>Arachne_Regen_Giver</li>
-                        </li>
-                    </value>
-                </li>
-                <li Class="PatchOperationAddModExtension">
-                    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Arachne"]</xpath>
-                    <value>
-                        <li Class="O21Toolbox.AutoHeal.DefModExtension_AutoHealProps">
-                            <!-- Ticks between attempting to heal. -->
-                            <healTicks>2000</healTicks>
-                            <!-- Ticks between attempting to regrow. -->
-                            <growthTicks>3000</growthTicks>
-                            <!-- Text displayed to describe what's happening. 
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>[O21] Toolbox</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <!--<success>Always</success> -->
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Arachne"]/race/hediffGiverSets</xpath>
+          <value>
+            <li>
+              <li>Arachne_Regen_Giver</li>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Arachne"]</xpath>
+          <value>
+            <li Class="O21Toolbox.AutoHeal.DefModExtension_AutoHealProps">
+              <!-- Ticks between attempting to heal. -->
+              <healTicks>2000</healTicks>
+              <!-- Ticks between attempting to regrow. -->
+              <growthTicks>3000</growthTicks>
+              <!-- Text displayed to describe what's happening. 
                                     Useful for when the pawn isn't organic. -->
-                            <growthText>Regrowing</growthText>
-                        </li>
-                    </value>
+              <growthText>Regrowing</growthText>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <HediffGiverSetDef>
+              <defName>Arachne_Regen_Giver</defName>
+              <hediffGivers>
+                <li Class="O21Toolbox.HediffGiver_Racial">
+                  <hediff>Arachne_Regen</hediff>
                 </li>
-                <li Class="PatchOperationAdd">
-                    <xpath>/Defs</xpath>
-                    <value>
-                        <HediffGiverSetDef>
-                            <defName>Arachne_Regen_Giver</defName>
-                            <hediffGivers>
-                                <li Class="O21Toolbox.HediffGiver_Racial">
-                                    <hediff>Arachne_Regen</hediff>
-                                </li>
-                            </hediffGivers>
-                        </HediffGiverSetDef>
-                        <HediffDef>
-                            <defName>Arachne_Regen</defName>
-                            <hediffClass>O21Toolbox.AutoHeal.Hediff_AutoHeal</hediffClass>
-                            <label>regen</label>
-                            <description>Passive regen for arachne. Can even regrow limbs! Applies to whole body regardless of current body part.</description>
-                            <defaultLabelColor>(0.6,0.85,0.91)</defaultLabelColor>
-                            <isBad>false</isBad>
-                            <scenarioCanAdd>false</scenarioCanAdd>
-                            <maxSeverity>1.0</maxSeverity>
-                            <stages>
-                                <li>
-                                    <capMods />
-                                </li>
-                            </stages>
-                            <modExtensions>
-                                <li Class="O21Toolbox.AutoHeal.DefModExtension_AutoHealProps">
-                                    <healTicks>2000</healTicks>
-                                    <cureTicks>6000</cureTicks>
-                                    <removeInfections>true</removeInfections>
-                                    <ignoreWhenHealing>
-                                        <li>GutWorms</li>
-                                        <li>MuscleParasites</li>
-                                    </ignoreWhenHealing>
-                                    <infectionsAllowed>
-                                        <li>GutWorms</li>
-                                        <li>MuscleParasites</li>
-                                        <li>ToxicBuildup</li>
-                                        <li>CryptosleepSickness</li>
-                                        <li>WoundInfection</li>
-                                        <li>Flu</li>
-                                        <li>Plague</li>
-                                        <li>Malaria</li>
-                                        <li>SleepingSickness</li>
-                                        <li>FibrousMechanites</li>
-                                        <li>SensoryMechanites</li>
-                                        <li>BloodRot</li>
-                                    </infectionsAllowed>
-                                    <explicitRemovals>
-                                    </explicitRemovals>
-                                    <regrowParts>true</regrowParts>
-                                    <growthText>Regrowing</growthText>
-                                    <protoBodyPart>Arachne_ProtoBodypart</protoBodyPart>
-                                    <curedBodyPart>Arachne_CuredBodypart</curedBodyPart>
-                                </li>
-                            </modExtensions>
-                        </HediffDef>
-
-                        <HediffDef>
-                            <defName>Arachne_ProtoBodypart</defName>
-                            <label>regrowing</label>
-                            <description>This body part is regrowing, it will cause quite a bit of pain until it's done doing so.</description>
-                            <hediffClass>O21Toolbox.AutoHeal.Hediff_GrowingPart</hediffClass>
-                            <defaultLabelColor>(0.59, 0.92, 0.69)</defaultLabelColor>
-                            <isBad>false</isBad>
-                            <addedPartProps>
-                                <partEfficiency>0.1</partEfficiency>
-                            </addedPartProps>
-                            <initialSeverity>0.0</initialSeverity>
-                            <maxSeverity>1.0</maxSeverity>
-                            <stages>
-                                <li>
-                                    <minSeverity>0</minSeverity>
-                                    <painOffset>0.2</painOffset>
-                                </li>
-                                <li>
-                                    <minSeverity>0.3</minSeverity>
-                                    <painOffset>0.15</painOffset>
-                                </li>
-                                <li>
-                                    <minSeverity>0.6</minSeverity>
-                                    <painOffset>0.1</painOffset>
-                                </li>
-                                <li>
-                                    <minSeverity>0.9</minSeverity>
-                                    <painOffset>0.05</painOffset>
-                                </li>
-                            </stages>
-                            <comps>
-                                <li Class="HediffCompProperties_Immunizable">
-                                    <!-- Decides how fast the body part heals/grows -->
-                                    <!-- 0.07 is roughly a Quadrum (15 days) -->
-                                    <severityPerDayNotImmune>0.07</severityPerDayNotImmune>
-                                </li>
-                            </comps>
-                            <modExtensions>
-                                <li Class="O21Toolbox.AutoHeal.DefModExtension_AutoHealProps">
-                                    <autoHealHediff>Arachne_Regen</autoHealHediff>
-                                </li>
-                            </modExtensions>
-                        </HediffDef>
-
-                        <HediffDef>
-                            <defName>Arachne_CuredBodypart</defName>
-                            <label>cured bodypart</label>
-                            <description>You should never actually see this info.</description>
-                            <hediffClass>O21Toolbox.Utility.RemovableHediff</hediffClass>
-                            <defaultLabelColor>(1.0, 1.0, 1.0)</defaultLabelColor>
-                            <isBad>false</isBad>
-                            <initialSeverity>0.0</initialSeverity>
-                            <maxSeverity>1.0</maxSeverity>
-                            <stages>
-                                <li>
-                                    <becomeVisible>false</becomeVisible>
-                                </li>
-                            </stages>
-                        </HediffDef>
-                    </value>
+              </hediffGivers>
+            </HediffGiverSetDef>
+            <HediffDef>
+              <defName>Arachne_Regen</defName>
+              <hediffClass>O21Toolbox.AutoHeal.Hediff_AutoHeal</hediffClass>
+              <label>regen</label>
+              <description>Passive regen for arachne. Can even regrow limbs! Applies to whole body regardless of current body part.</description>
+              <defaultLabelColor>(0.6,0.85,0.91)</defaultLabelColor>
+              <isBad>false</isBad>
+              <scenarioCanAdd>false</scenarioCanAdd>
+              <maxSeverity>1.0</maxSeverity>
+              <stages>
+                <li>
+                  <capMods />
                 </li>
-            </operations>
-        </match>
-    </Operation>
-
+              </stages>
+              <modExtensions>
+                <li Class="O21Toolbox.AutoHeal.DefModExtension_AutoHealProps">
+                  <healTicks>2000</healTicks>
+                  <cureTicks>6000</cureTicks>
+                  <removeInfections>true</removeInfections>
+                  <ignoreWhenHealing>
+                    <li>GutWorms</li>
+                    <li>MuscleParasites</li>
+                  </ignoreWhenHealing>
+                  <infectionsAllowed>
+                    <li>GutWorms</li>
+                    <li>MuscleParasites</li>
+                    <li>ToxicBuildup</li>
+                    <li>CryptosleepSickness</li>
+                    <li>WoundInfection</li>
+                    <li>Flu</li>
+                    <li>Plague</li>
+                    <li>Malaria</li>
+                    <li>SleepingSickness</li>
+                    <li>FibrousMechanites</li>
+                    <li>SensoryMechanites</li>
+                    <li>BloodRot</li>
+                  </infectionsAllowed>
+                  <explicitRemovals>
+                  </explicitRemovals>
+                  <regrowParts>true</regrowParts>
+                  <growthText>Regrowing</growthText>
+                  <protoBodyPart>Arachne_ProtoBodypart</protoBodyPart>
+                  <curedBodyPart>Arachne_CuredBodypart</curedBodyPart>
+                </li>
+              </modExtensions>
+            </HediffDef>
+            <HediffDef>
+              <defName>Arachne_ProtoBodypart</defName>
+              <label>regrowing</label>
+              <description>This body part is regrowing, it will cause quite a bit of pain until it's done doing so.</description>
+              <hediffClass>O21Toolbox.AutoHeal.Hediff_GrowingPart</hediffClass>
+              <defaultLabelColor>(0.59, 0.92, 0.69)</defaultLabelColor>
+              <isBad>false</isBad>
+              <addedPartProps>
+                <partEfficiency>0.1</partEfficiency>
+              </addedPartProps>
+              <initialSeverity>0.0</initialSeverity>
+              <maxSeverity>1.0</maxSeverity>
+              <stages>
+                <li>
+                  <minSeverity>0</minSeverity>
+                  <painOffset>0.2</painOffset>
+                </li>
+                <li>
+                  <minSeverity>0.3</minSeverity>
+                  <painOffset>0.15</painOffset>
+                </li>
+                <li>
+                  <minSeverity>0.6</minSeverity>
+                  <painOffset>0.1</painOffset>
+                </li>
+                <li>
+                  <minSeverity>0.9</minSeverity>
+                  <painOffset>0.05</painOffset>
+                </li>
+              </stages>
+              <comps>
+                <li Class="HediffCompProperties_Immunizable">
+                  <!-- Decides how fast the body part heals/grows -->
+                  <!-- 0.07 is roughly a Quadrum (15 days) -->
+                  <severityPerDayNotImmune>0.07</severityPerDayNotImmune>
+                </li>
+              </comps>
+              <modExtensions>
+                <li Class="O21Toolbox.AutoHeal.DefModExtension_AutoHealProps">
+                  <autoHealHediff>Arachne_Regen</autoHealHediff>
+                </li>
+              </modExtensions>
+            </HediffDef>
+            <HediffDef>
+              <defName>Arachne_CuredBodypart</defName>
+              <label>cured bodypart</label>
+              <description>You should never actually see this info.</description>
+              <hediffClass>O21Toolbox.Utility.RemovableHediff</hediffClass>
+              <defaultLabelColor>(1.0, 1.0, 1.0)</defaultLabelColor>
+              <isBad>false</isBad>
+              <initialSeverity>0.0</initialSeverity>
+              <maxSeverity>1.0</maxSeverity>
+              <stages>
+                <li>
+                  <becomeVisible>false</becomeVisible>
+                </li>
+              </stages>
+            </HediffDef>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
 </Patch>

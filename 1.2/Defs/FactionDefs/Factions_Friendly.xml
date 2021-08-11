@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <FactionDef Name="Arachne_FriendlyFactionBase" Abstract="True">
     <goodwillDailyGain>0.20</goodwillDailyGain>
     <goodwillDailyFall>0.20</goodwillDailyFall>
   </FactionDef>
-
   <FactionDef ParentName="Arachne_FriendlyFactionBase" Name="Arachne_ArachneColonyFactionBase" Abstract="True">
     <pawnSingular>settler</pawnSingular>
     <pawnsPlural>settlers</pawnsPlural>
@@ -123,7 +121,6 @@
       </li>
     </pawnGroupMakers>
   </FactionDef>
-
   <FactionDef ParentName="Arachne_ArachneColonyFactionBase">
     <defName>ArachneColony</defName>
     <label>Arachne Colony</label>
@@ -137,5 +134,4 @@
     <factionIconPath>World/FriendlyBase</factionIconPath>
     <settlementTexturePath>World/FriendlyBase</settlementTexturePath>
   </FactionDef>
-
 </Defs>

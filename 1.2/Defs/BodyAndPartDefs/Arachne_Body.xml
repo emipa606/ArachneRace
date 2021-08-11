@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <BodyPartGroupDef>
     <defName>ArachneClawLeft</defName>
@@ -10,8 +10,6 @@
     <label>claw</label>
     <listOrder>8</listOrder>
   </BodyPartGroupDef>
-
-
   <BodyDef>
     <defName>Arachne_body</defName>
     <label>arachne</label>
@@ -652,6 +650,4 @@
       </parts>
     </corePart>
   </BodyDef>
-
-
 </Defs>

@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Footprint -->
+  <!-- brown	 -->
+  <ThingDef ParentName="FootprintBase">
+    <defName>Mote_AR_Brown_Footprint</defName>
+    <graphicData>
+      <texPath>Mote/Footprint/Arachne/AR_White_Footprint</texPath>
+      <color>(97,65,48,97)</color>
+    </graphicData>
+  </ThingDef>
+  <!-- red	 -->
+  <ThingDef ParentName="FootprintBase">
+    <defName>Mote_AR_Red_Footprint</defName>
+    <graphicData>
+      <texPath>Mote/Footprint/Arachne/AR_White_Footprint</texPath>
+      <color>(131, 34, 34, 180)</color>
+    </graphicData>
+  </ThingDef>
+  <!-- orange	 -->
+  <ThingDef ParentName="FootprintBase">
+    <defName>Mote_AR_Orange_Footprint</defName>
+    <graphicData>
+      <texPath>Mote/Footprint/Arachne/AR_White_Footprint</texPath>
+      <color>(173, 90, 0, 180)</color>
+    </graphicData>
+  </ThingDef>
+  <!-- yellow	 -->
+  <ThingDef ParentName="FootprintBase">
+    <defName>Mote_AR_Yellow_Footprint</defName>
+    <graphicData>
+      <texPath>Mote/Footprint/Arachne/AR_White_Footprint</texPath>
+      <color>(179, 185, 73, 180)</color>
+    </graphicData>
+  </ThingDef>
+  <!-- light green -->
+  <ThingDef ParentName="FootprintBase">
+    <defName>Mote_AR_LightGreen_Footprint</defName>
+    <graphicData>
+      <texPath>Mote/Footprint/Arachne/AR_White_Footprint</texPath>
+      <color>(132, 138, 114, 180)</color>
+    </graphicData>
+  </ThingDef>
+  <!-- green	 -->
+  <ThingDef ParentName="FootprintBase">
+    <defName>Mote_AR_Green_Footprint</defName>
+    <graphicData>
+      <texPath>Mote/Footprint/Arachne/AR_White_Footprint</texPath>
+      <color>(11, 109, 10, 180)</color>
+    </graphicData>
+  </ThingDef>
+  <!-- cyan	 -->
+  <ThingDef ParentName="FootprintBase">
+    <defName>Mote_AR_Cyan_Footprint</defName>
+    <graphicData>
+      <texPath>Mote/Footprint/Arachne/AR_White_Footprint</texPath>
+      <color>(3, 159, 159, 180)</color>
+    </graphicData>
+  </ThingDef>
+  <!-- blue	 -->
+  <ThingDef ParentName="FootprintBase">
+    <defName>Mote_AR_Blue_Footprint</defName>
+    <graphicData>
+      <texPath>Mote/Footprint/Arachne/AR_White_Footprint</texPath>
+      <color>(0, 21, 162, 180)</color>
+    </graphicData>
+  </ThingDef>
+  <!-- pink	 -->
+  <ThingDef ParentName="FootprintBase">
+    <defName>Mote_AR_Pink_Footprint</defName>
+    <graphicData>
+      <texPath>Mote/Footprint/Arachne/AR_White_Footprint</texPath>
+      <color>(255, 71, 231, 180)</color>
+    </graphicData>
+  </ThingDef>
+  <!-- purple	 -->
+  <ThingDef ParentName="FootprintBase">
+    <defName>Mote_AR_Purple_Footprint</defName>
+    <graphicData>
+      <texPath>Mote/Footprint/Arachne/AR_White_Footprint</texPath>
+      <color>(93, 21, 105, 180)</color>
+    </graphicData>
+  </ThingDef>
+  <!-- black	 -->
+  <ThingDef ParentName="FootprintBase">
+    <defName>Mote_AR_Black_Footprint</defName>
+    <graphicData>
+      <texPath>Mote/Footprint/Arachne/AR_White_Footprint</texPath>
+      <color>(0, 0, 0, 180)</color>
+    </graphicData>
+  </ThingDef>
+  <!-- grey	 -->
+  <ThingDef ParentName="FootprintBase">
+    <defName>Mote_AR_Grey_Footprint</defName>
+    <graphicData>
+      <texPath>Mote/Footprint/Arachne/AR_White_Footprint</texPath>
+      <color>(170, 170, 170, 180)</color>
+    </graphicData>
+  </ThingDef>
+  <!-- white	 -->
+  <ThingDef ParentName="FootprintBase">
+    <defName>Mote_AR_White_Footprint</defName>
+    <graphicData>
+      <texPath>Mote/Footprint/Arachne/AR_White_Footprint</texPath>
+    </graphicData>
+  </ThingDef>
+</Defs>

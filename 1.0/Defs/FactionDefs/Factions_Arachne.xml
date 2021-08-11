@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <FactionDef Abstract="True" Name="ArachneFactionBase">
     <colorSpectrum>
       <li>(0.0863, 0.0863, 0.0863)</li>
       <li>(0.8706, 0.4063, 0.4063)</li>
     </colorSpectrum>
   </FactionDef>
-
   <FactionDef Parent="ArachneFactionBase">
     <defName>ArachnePlayerColony</defName>
     <label>Arachne Colony</label>
@@ -247,5 +245,4 @@
     <homeIconPath>World/ArachneMilBaseIcon</homeIconPath>
     <expandingIconTexture>World/ArachneMilBaseIcon</expandingIconTexture>
   </FactionDef>
-
 </Defs>

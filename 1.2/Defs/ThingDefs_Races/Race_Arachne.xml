@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
     <defName>Arachne</defName>
     <label>arachne</label>
@@ -34,7 +33,6 @@
         </disallowedTraits>
         <maxDamageForSocialfight>8</maxDamageForSocialfight>
         <humanRecipeImport>true</humanRecipeImport>
-
         <alienPartGenerator>
           <aliencrowntypes>
             <li>Average_Normal</li>
@@ -75,7 +73,6 @@
                     <weight>5</weight>
                     <only>RGBA(121,85,44,255)</only>
                   </li>
-
                 </options>
               </first>
               <second Class="ColorGenerator_Options">
@@ -119,7 +116,6 @@
           <customPortraitDrawSize>(1.0, 1.0)</customPortraitDrawSize>
           <customPortraitHeadDrawSize>(1.0, 1.0)</customPortraitHeadDrawSize>
           <headOffset>(0.0, 0.0)</headOffset>
-
           <bodyAddons>
             <li>
               <drawSize>0.9</drawSize>
@@ -288,11 +284,8 @@
               <drawnInBed>false</drawnInBed>
             </li>
           </bodyAddons>
-
         </alienPartGenerator>
-
       </generalSettings>
-
       <graphicPaths>
         <li>
           <head>Things/Pawn/Arachne/Head/</head>
@@ -300,7 +293,6 @@
           <skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</skeleton>
         </li>
       </graphicPaths>
-
       <hairSettings>
         <hasHair>true</hasHair>
         <getsGreyAt>200</getsGreyAt>
@@ -311,14 +303,11 @@
           <li>Punk</li>
         </hairTags>
       </hairSettings>
-
       <thoughtSettings>
-
         <cannotReceiveThoughts>
           <li>NeedOutdoors</li>
           <li>Naked</li>
         </cannotReceiveThoughts>
-
       </thoughtSettings>
       <raceRestriction>
         <apparelList>
@@ -341,7 +330,6 @@
       <ComfyTemperatureMax>18</ComfyTemperatureMax>
       <RoyalFavorValue>3</RoyalFavorValue>
       <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
-
       <LeatherAmount>50</LeatherAmount>
       <GlobalLearningFactor>1.05</GlobalLearningFactor>
       <PainShockThreshold>1.1</PainShockThreshold>
@@ -360,7 +348,6 @@
       <TameAnimalChance>1.15</TameAnimalChance>
       <TrainAnimalChance>1.15</TrainAnimalChance>
       <AnimalGatherSpeed>1.15</AnimalGatherSpeed>
-
       <AimingDelayFactor>0.9</AimingDelayFactor>
       <ShootingAccuracyPawn>1.1</ShootingAccuracyPawn>
       <MeleeDodgeChance>1.1</MeleeDodgeChance>
@@ -368,7 +355,6 @@
       <CarryingCapacity>85</CarryingCapacity>
     </statBases>
     <tools>
-
       <li>
         <label>left fist</label>
         <capacities>
@@ -523,5 +509,4 @@
       <li>Anesthetize</li>
     </recipes>
   </AlienRace.ThingDef_AlienRace>
-
 </Defs>

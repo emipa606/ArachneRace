@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-<ThingDef ParentName="ApparelMakeableBase">
+  <ThingDef ParentName="ApparelMakeableBase">
     <defName>Arachne_Shirt</defName>
     <label>a basic shirt</label>
     <description>A simple shirt with pants.</description>

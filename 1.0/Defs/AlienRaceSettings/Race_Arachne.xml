@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
     <defName>Arachne</defName>
     <label>arachne</label>
@@ -27,7 +26,6 @@
         </disallowedTraits>
         <maxDamageForSocialfight>8</maxDamageForSocialfight>
         <humanRecipeImport>true</humanRecipeImport>
-
         <alienPartGenerator>
           <aliencrowntypes>
             <li>Average_Normal</li>
@@ -95,7 +93,6 @@
           <customPortraitDrawSize>(1, 1)</customPortraitDrawSize>
           <customPortraitHeadDrawSize>(1.0, 1.0)</customPortraitHeadDrawSize>
           <headOffset>(0.0, 0.0)</headOffset>
-
           <bodyAddons>
             <li>
               <drawSize>1</drawSize>
@@ -203,18 +200,14 @@
               <drawnInBed>false</drawnInBed>
             </li>
           </bodyAddons>
-
         </alienPartGenerator>
-
       </generalSettings>
-
       <graphicPaths>
         <li>
           <head>Things/Arachne/Head/</head>
           <body>Things/Arachne/Body/</body>
         </li>
       </graphicPaths>
-
       <hairSettings>
         <hasHair>true</hasHair>
         <getsGreyAt>200</getsGreyAt>
@@ -225,15 +218,12 @@
           <li>Punk</li>
         </hairTags>
       </hairSettings>
-
       <thoughtSettings>
-
         <cannotReceiveThoughts>
           <li>TrappedIndoors</li>
           <li>StuckIndoors</li>
           <li>Naked</li>
         </cannotReceiveThoughts>
-
       </thoughtSettings>
       <raceRestriction>
         <apparelList>
@@ -252,7 +242,6 @@
       <ComfyTemperatureMin>-8</ComfyTemperatureMin>
       <ComfyTemperatureMax>18</ComfyTemperatureMax>
       <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
-
       <LeatherAmount>30</LeatherAmount>
       <GlobalLearningFactor>1.05</GlobalLearningFactor>
       <PainShockThreshold>1.1</PainShockThreshold>
@@ -272,14 +261,12 @@
       <TameAnimalChance>1.15</TameAnimalChance>
       <TrainAnimalChance>1.15</TrainAnimalChance>
       <AnimalGatherSpeed>1.15</AnimalGatherSpeed>
-
       <AimingDelayFactor>0.9</AimingDelayFactor>
       <MeleeDodgeChance>1.1</MeleeDodgeChance>
       <MeleeHitChance>1.1</MeleeHitChance>
       <CarryingCapacity>85</CarryingCapacity>
     </statBases>
     <tools>
-
       <li>
         <label>left fist</label>
         <capacities>
@@ -420,5 +407,4 @@
       </hediffGiverSets>
     </race>
   </AlienRace.ThingDef_AlienRace>
-
 </Defs>

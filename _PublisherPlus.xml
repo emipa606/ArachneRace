@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Configuration>
-  <Excluded>
-    <exclude>M:\SteamLibrary\steamapps\common\RimWorld\Mods\Arachne Temporary Github\.git</exclude>
-    <exclude>M:\SteamLibrary\steamapps\common\RimWorld\Mods\Arachne Temporary Github\LICENSE</exclude>
-    <exclude>M:\SteamLibrary\steamapps\common\RimWorld\Mods\Arachne Temporary Github\README.md</exclude>
-  </Excluded>
-</Configuration>

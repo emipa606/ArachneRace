@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ThingDef ParentName="BaseBullet">
     <defName>ArachnePninety_Bullet</defName>
@@ -70,7 +70,6 @@
         <power>8</power>
         <cooldownTime>2</cooldownTime>
       </li>
-
       <li>
         <label>barrel</label>
         <capacities>

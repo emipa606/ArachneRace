@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <!--<success>Always</success> -->
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Arachne"]/race/hediffGiverSets</xpath>
+        <value>
+          <li>
+            <li>Arachne_Regen_Giver</li>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAddModExtension">
+        <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Arachne"]</xpath>
+        <value>
+          <li Class="O21Toolbox.AutoHeal.DefModExtension_AutoHealProps">
+            <!-- Ticks between attempting to heal. -->
+            <healTicks>2000</healTicks>
+            <!-- Ticks between attempting to regrow. -->
+            <growthTicks>3000</growthTicks>
+            <!-- Text displayed to describe what's happening. 
+                                    Useful for when the pawn isn't organic. -->
+            <growthText>Regrowing</growthText>
+          </li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>
