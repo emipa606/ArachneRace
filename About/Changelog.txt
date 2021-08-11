@@ -1,4 +1,7 @@
 # Changelog for ArachneRace
 
+1.0.2.0 - Fixed description
+
+
 1.0.1.0 - Updates to 1.3
 
