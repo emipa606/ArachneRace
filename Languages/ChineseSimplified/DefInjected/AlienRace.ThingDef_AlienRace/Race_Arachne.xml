@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Arachne.label>阿拉克涅</Arachne.label>
+  <Arachne.description>阿拉克捏种族血脉可以追溯至阿拉克捏母星，那是一个温度在严寒与温暖间波动的世界.\n阿拉克涅经过数千代的衍化开始适应这种这种严寒，但与之相对的，他们对于炎热的耐性较差.</Arachne.description>
+  <Arachne.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>皮肤</Arachne.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <Arachne.tools.0.label>左拳</Arachne.tools.0.label>
+  <Arachne.tools.1.label>右拳</Arachne.tools.1.label>
+  <Arachne.tools.2.label>左爪</Arachne.tools.2.label>
+  <Arachne.tools.3.label>右爪</Arachne.tools.3.label>
+</LanguageData>

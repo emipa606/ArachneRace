@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ArachnePninety_Bullet.label>冲锋枪子弹</ArachnePninety_Bullet.label>
+  <ArachnePninety.label>阿拉克涅冲锋枪</ArachnePninety.label>
+  <ArachnePninety.description>阿拉克涅对于他们在几世纪前发现的外星武器的改进版.在中距离内拥有较低的伤害和较高的进度.</ArachnePninety.description>
+  <ArachnePninety.tools.0.label>枪托</ArachnePninety.tools.0.label>
+  <ArachnePninety.tools.1.label>枪管</ArachnePninety.tools.1.label>
+  <Arachne_Sword.label>阿拉克涅剑</Arachne_Sword.label>
+  <Arachne_Sword.description>一把传统的阿拉克涅剑，拥有出色的切割性能.</Arachne_Sword.description>
+  <Arachne_Sword.tools.0.label>尖</Arachne_Sword.tools.0.label>
+  <Arachne_Sword.tools.1.label>刃</Arachne_Sword.tools.1.label>
+  <Arachne_Scythe.label>阿拉克涅战镰</Arachne_Scythe.label>
+  <Arachne_Scythe.description>一把传统的阿拉克涅战镰，强力但笨重迟缓的近战武器.</Arachne_Scythe.description>
+  <Arachne_Scythe.tools.0.label>握柄</Arachne_Scythe.tools.0.label>
+  <Arachne_Scythe.tools.1.label>刃</Arachne_Scythe.tools.1.label>
+</LanguageData>

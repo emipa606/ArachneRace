@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Arachne_Settler.label>移民</Arachne_Settler.label>
+  <Arachne_Settler.labelPlural>移民小队</Arachne_Settler.labelPlural>
+  <Arachne_Settler.labelMale>男性移民</Arachne_Settler.labelMale>
+  <Arachne_Settler.labelMalePlural>男移民小队</Arachne_Settler.labelMalePlural>
+  <Arachne_Settler.labelFemale>女性移民</Arachne_Settler.labelFemale>
+  <Arachne_Settler.labelFemalePlural>女移民小队</Arachne_Settler.labelFemalePlural>
+  <Arachne_Colonist.label>殖民者</Arachne_Colonist.label>
+  <Arachne_Colonist.labelPlural>殖民小队</Arachne_Colonist.labelPlural>
+  <Arachne_Colonist.labelMale>男性殖民者</Arachne_Colonist.labelMale>
+  <Arachne_Colonist.labelMalePlural>男性殖民者小队</Arachne_Colonist.labelMalePlural>
+  <Arachne_Colonist.labelFemale>女性殖民者</Arachne_Colonist.labelFemale>
+  <Arachne_Colonist.labelFemalePlural>女性殖民者小队</Arachne_Colonist.labelFemalePlural>
+  <Arachne_Trader.label>交易者</Arachne_Trader.label>
+  <Arachne_Trader.labelPlural>交易小队</Arachne_Trader.labelPlural>
+  <Arachne_Trader.labelMale>男性交易者</Arachne_Trader.labelMale>
+  <Arachne_Trader.labelMalePlural>男性交易小队</Arachne_Trader.labelMalePlural>
+  <Arachne_Trader.labelFemale>女性交易者</Arachne_Trader.labelFemale>
+  <Arachne_Trader.labelFemalePlural>女性交易小队</Arachne_Trader.labelFemalePlural>
+  <Arachne_Elder.label>长老</Arachne_Elder.label>
+  <Arachne_Elder.labelPlural>长老小队</Arachne_Elder.labelPlural>
+  <Arachne_Elder.labelMale>男性长老</Arachne_Elder.labelMale>
+  <Arachne_Elder.labelMalePlural>男长老小队</Arachne_Elder.labelMalePlural>
+  <Arachne_Elder.labelFemale>女性长老</Arachne_Elder.labelFemale>
+  <Arachne_Elder.labelFemalePlural>女长老小队</Arachne_Elder.labelFemalePlural>
+  <Arachne_Soldier.label>战士</Arachne_Soldier.label>
+  <Arachne_Soldier.labelPlural>战士小队</Arachne_Soldier.labelPlural>
+  <Arachne_Soldier.labelMale>男性战士</Arachne_Soldier.labelMale>
+  <Arachne_Soldier.labelMalePlural>男性战士小队</Arachne_Soldier.labelMalePlural>
+  <Arachne_Soldier.labelFemale>女性战士</Arachne_Soldier.labelFemale>
+  <Arachne_Soldier.labelFemalePlural>女性战士小队</Arachne_Soldier.labelFemalePlural>
+  <Arachne_Valkyrie.label>女武神</Arachne_Valkyrie.label>
+  <Arachne_Valkyrie.labelPlural>女武神小队</Arachne_Valkyrie.labelPlural>
+  <Arachne_Valkyrie.labelMale>男性女武神</Arachne_Valkyrie.labelMale>
+  <Arachne_Valkyrie.labelMalePlural>男性女武神小队</Arachne_Valkyrie.labelMalePlural>
+  <Arachne_Valkyrie.labelFemale>女武神</Arachne_Valkyrie.labelFemale>
+  <Arachne_Valkyrie.labelFemalePlural>女武神小队</Arachne_Valkyrie.labelFemalePlural>
+  <Arachne_Scout.label>侦察兵</Arachne_Scout.label>
+  <Arachne_Scout.labelPlural>侦察兵小队</Arachne_Scout.labelPlural>
+  <Arachne_Scout.labelMale>男性侦察兵</Arachne_Scout.labelMale>
+  <Arachne_Scout.labelMalePlural>男性侦察兵小队</Arachne_Scout.labelMalePlural>
+  <Arachne_Scout.labelFemale>女性侦察兵</Arachne_Scout.labelFemale>
+  <Arachne_Scout.labelFemalePlural>女性侦察兵小队</Arachne_Scout.labelFemalePlural>
+</LanguageData>

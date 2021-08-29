@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ArachneMilitiaBase.label>阿拉克涅民兵</ArachneMilitiaBase.label>
+  <ArachneMilitiaBase.description>阿拉克涅民兵营地</ArachneMilitiaBase.description>
+  <ArachneMilitiaBase.fixedName>阿拉克涅民兵</ArachneMilitiaBase.fixedName>
+  <ArachneMilitiaBase.pawnsPlural>民兵</ArachneMilitiaBase.pawnsPlural>
+  <ArachneMilitiaBase.leaderTitle>队长</ArachneMilitiaBase.leaderTitle>
+</LanguageData>

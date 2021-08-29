@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Arachne_PlayerColonist.label>殖民者</Arachne_PlayerColonist.label>
+  <Arachne_PlayerColonist.labelPlural>殖民小队</Arachne_PlayerColonist.labelPlural>
+  <Arachne_PlayerColonist.labelMale>男性殖民者</Arachne_PlayerColonist.labelMale>
+  <Arachne_PlayerColonist.labelMalePlural>男性殖民者小队</Arachne_PlayerColonist.labelMalePlural>
+  <Arachne_PlayerColonist.labelFemale>女性殖民者</Arachne_PlayerColonist.labelFemale>
+  <Arachne_PlayerColonist.labelFemalePlural>女性殖民者小队</Arachne_PlayerColonist.labelFemalePlural>
+</LanguageData>

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Low merc tier - grenadiers -->
+  <ArachneMilitia_Destructive.label>grenadier</ArachneMilitia_Destructive.label>
+  <ArachneMilitia_Destructive.labelPlural>grenadiers</ArachneMilitia_Destructive.labelPlural>
+  <ArachneMilitia_Destructive.labelMale>male grenadier</ArachneMilitia_Destructive.labelMale>
+  <ArachneMilitia_Destructive.labelMalePlural>male grenadiers</ArachneMilitia_Destructive.labelMalePlural>
+  <ArachneMilitia_Destructive.labelFemale>female grenadier</ArachneMilitia_Destructive.labelFemale>
+  <ArachneMilitia_Destructive.labelFemalePlural>female grenadiers</ArachneMilitia_Destructive.labelFemalePlural>
+  <ArachneMilitia_EMP.label>EMP grenadier</ArachneMilitia_EMP.label>
+  <ArachneMilitia_EMP.labelPlural>EMP grenadiers</ArachneMilitia_EMP.labelPlural>
+  <ArachneMilitia_EMP.labelMale>male EMP grenadier</ArachneMilitia_EMP.labelMale>
+  <ArachneMilitia_EMP.labelMalePlural>male EMP grenadiers</ArachneMilitia_EMP.labelMalePlural>
+  <ArachneMilitia_EMP.labelFemale>female EMP grenadier</ArachneMilitia_EMP.labelFemale>
+  <ArachneMilitia_EMP.labelFemalePlural>female EMP grenadiers</ArachneMilitia_EMP.labelFemalePlural>
+  <ArachneMilitia_Smoke.label>smoke grenadier</ArachneMilitia_Smoke.label>
+  <ArachneMilitia_Smoke.labelPlural>smoke grenadiers</ArachneMilitia_Smoke.labelPlural>
+  <ArachneMilitia_Smoke.labelMale>male smoke grenadier</ArachneMilitia_Smoke.labelMale>
+  <ArachneMilitia_Smoke.labelMalePlural>male smoke grenadiers</ArachneMilitia_Smoke.labelMalePlural>
+  <ArachneMilitia_Smoke.labelFemale>female smoke grenadier</ArachneMilitia_Smoke.labelFemale>
+  <ArachneMilitia_Smoke.labelFemalePlural>female smoke grenadiers</ArachneMilitia_Smoke.labelFemalePlural>
+  <!-- Mid merc tier - gunner, slasher, sniper, heavy -->
+  <ArachneMilitia_Gunner.label>militia</ArachneMilitia_Gunner.label>
+  <ArachneMilitia_Gunner.labelPlural>militias</ArachneMilitia_Gunner.labelPlural>
+  <ArachneMilitia_Gunner.labelMale>male militia</ArachneMilitia_Gunner.labelMale>
+  <ArachneMilitia_Gunner.labelMalePlural>male militias</ArachneMilitia_Gunner.labelMalePlural>
+  <ArachneMilitia_Gunner.labelFemale>female militia</ArachneMilitia_Gunner.labelFemale>
+  <ArachneMilitia_Gunner.labelFemalePlural>female militias</ArachneMilitia_Gunner.labelFemalePlural>
+  <ArachneMilitia_Gunner_Acidifier.label>militia</ArachneMilitia_Gunner_Acidifier.label>
+  <ArachneMilitia_Gunner_Acidifier.labelPlural>militias</ArachneMilitia_Gunner_Acidifier.labelPlural>
+  <ArachneMilitia_Gunner_Acidifier.labelMale>male militia</ArachneMilitia_Gunner_Acidifier.labelMale>
+  <ArachneMilitia_Gunner_Acidifier.labelMalePlural>male militias</ArachneMilitia_Gunner_Acidifier.labelMalePlural>
+  <ArachneMilitia_Gunner_Acidifier.labelFemale>female militia</ArachneMilitia_Gunner_Acidifier.labelFemale>
+  <ArachneMilitia_Gunner_Acidifier.labelFemalePlural>female militias</ArachneMilitia_Gunner_Acidifier.labelFemalePlural>
+  <ArachneMilitia_Sniper.label>militia sniper</ArachneMilitia_Sniper.label>
+  <ArachneMilitia_Sniper.labelPlural>militia snipers</ArachneMilitia_Sniper.labelPlural>
+  <ArachneMilitia_Sniper.labelMale>male militia sniper</ArachneMilitia_Sniper.labelMale>
+  <ArachneMilitia_Sniper.labelMalePlural>male militia snipers</ArachneMilitia_Sniper.labelMalePlural>
+  <ArachneMilitia_Sniper.labelFemale>female militia sniper</ArachneMilitia_Sniper.labelFemale>
+  <ArachneMilitia_Sniper.labelFemalePlural>female militia snipers</ArachneMilitia_Sniper.labelFemalePlural>
+  <ArachneMilitia_Sniper_Acidifier.label>militia sniper</ArachneMilitia_Sniper_Acidifier.label>
+  <ArachneMilitia_Sniper_Acidifier.labelPlural>militia snipers</ArachneMilitia_Sniper_Acidifier.labelPlural>
+  <ArachneMilitia_Sniper_Acidifier.labelMale>male militia sniper</ArachneMilitia_Sniper_Acidifier.labelMale>
+  <ArachneMilitia_Sniper_Acidifier.labelMalePlural>male militia snipers</ArachneMilitia_Sniper_Acidifier.labelMalePlural>
+  <ArachneMilitia_Sniper_Acidifier.labelFemale>female militia sniper</ArachneMilitia_Sniper_Acidifier.labelFemale>
+  <ArachneMilitia_Sniper_Acidifier.labelFemalePlural>female militia snipers</ArachneMilitia_Sniper_Acidifier.labelFemalePlural>
+  <!--[Duplicated] <ArachneMilitia_Slasher.label>militia slasher</ArachneMilitia_Slasher.label>-->
+  <!--[Duplicated] <ArachneMilitia_Slasher.labelPlural>militia slashers</ArachneMilitia_Slasher.labelPlural>-->
+  <!--[Duplicated] <ArachneMilitia_Slasher.labelMale>male militia slasher</ArachneMilitia_Slasher.labelMale>-->
+  <!--[Duplicated] <ArachneMilitia_Slasher.labelMalePlural>male militia slashers</ArachneMilitia_Slasher.labelMalePlural>-->
+  <!--[Duplicated] <ArachneMilitia_Slasher.labelFemale>female militia slasher</ArachneMilitia_Slasher.labelFemale>-->
+  <!--[Duplicated] <ArachneMilitia_Slasher.labelFemalePlural>female militia slashers</ArachneMilitia_Slasher.labelFemalePlural>-->
+  <ArachneMilitia_Slasher.label>militia slasher</ArachneMilitia_Slasher.label>
+  <ArachneMilitia_Slasher.labelPlural>militia slashers</ArachneMilitia_Slasher.labelPlural>
+  <ArachneMilitia_Slasher.labelMale>male militia slasher</ArachneMilitia_Slasher.labelMale>
+  <ArachneMilitia_Slasher.labelMalePlural>male militia slashers</ArachneMilitia_Slasher.labelMalePlural>
+  <ArachneMilitia_Slasher.labelFemale>female militia slasher</ArachneMilitia_Slasher.labelFemale>
+  <ArachneMilitia_Slasher.labelFemalePlural>female militia slashers</ArachneMilitia_Slasher.labelFemalePlural>
+  <ArachneMilitia_Slasher_Acidifier.label>militia slasher</ArachneMilitia_Slasher_Acidifier.label>
+  <ArachneMilitia_Slasher_Acidifier.labelPlural>militia slashers</ArachneMilitia_Slasher_Acidifier.labelPlural>
+  <ArachneMilitia_Slasher_Acidifier.labelMale>male militia slasher</ArachneMilitia_Slasher_Acidifier.labelMale>
+  <ArachneMilitia_Slasher_Acidifier.labelMalePlural>male militia slashers</ArachneMilitia_Slasher_Acidifier.labelMalePlural>
+  <ArachneMilitia_Slasher_Acidifier.labelFemale>female militia slasher</ArachneMilitia_Slasher_Acidifier.labelFemale>
+  <ArachneMilitia_Slasher_Acidifier.labelFemalePlural>female militia slashers</ArachneMilitia_Slasher_Acidifier.labelFemalePlural>
+  <ArachneMilitia_Heavy.label>heavy mercenary</ArachneMilitia_Heavy.label>
+  <ArachneMilitia_Heavy.labelPlural>heavy mercenaries</ArachneMilitia_Heavy.labelPlural>
+  <ArachneMilitia_Heavy.labelMale>male heavy mercenary</ArachneMilitia_Heavy.labelMale>
+  <ArachneMilitia_Heavy.labelMalePlural>male heavy mercenaries</ArachneMilitia_Heavy.labelMalePlural>
+  <ArachneMilitia_Heavy.labelFemale>female heavy mercenary</ArachneMilitia_Heavy.labelFemale>
+  <ArachneMilitia_Heavy.labelFemalePlural>female heavy mercenaries</ArachneMilitia_Heavy.labelFemalePlural>
+  <!-- Elite tier - merc elite, pirate boss -->
+  <ArachneMilitia_Elite.label>elite</ArachneMilitia_Elite.label>
+  <ArachneMilitia_Elite.labelPlural>elite</ArachneMilitia_Elite.labelPlural>
+  <ArachneMilitia_Elite.labelMale>male elite</ArachneMilitia_Elite.labelMale>
+  <ArachneMilitia_Elite.labelMalePlural>male elite</ArachneMilitia_Elite.labelMalePlural>
+  <ArachneMilitia_Elite.labelFemale>female elite</ArachneMilitia_Elite.labelFemale>
+  <ArachneMilitia_Elite.labelFemalePlural>female elite</ArachneMilitia_Elite.labelFemalePlural>
+  <ArachneMilitia_Assassin.label>elite team</ArachneMilitia_Assassin.label>
+  <ArachneMilitia_Assassin.labelPlural>elite team</ArachneMilitia_Assassin.labelPlural>
+  <ArachneMilitia_Assassin.labelMale>male elite team</ArachneMilitia_Assassin.labelMale>
+  <ArachneMilitia_Assassin.labelMalePlural>male elite team</ArachneMilitia_Assassin.labelMalePlural>
+  <ArachneMilitia_Assassin.labelFemale>female elite team</ArachneMilitia_Assassin.labelFemale>
+  <ArachneMilitia_Assassin.labelFemalePlural>female elite team</ArachneMilitia_Assassin.labelFemalePlural>
+  <ArachneMilitia_Assault.label>elite team</ArachneMilitia_Assault.label>
+  <ArachneMilitia_Assault.labelPlural>elite team</ArachneMilitia_Assault.labelPlural>
+  <ArachneMilitia_Assault.labelMale>male elite team</ArachneMilitia_Assault.labelMale>
+  <ArachneMilitia_Assault.labelMalePlural>male elite team</ArachneMilitia_Assault.labelMalePlural>
+  <ArachneMilitia_Assault.labelFemale>female elite team</ArachneMilitia_Assault.labelFemale>
+  <ArachneMilitia_Assault.labelFemalePlural>female elite team</ArachneMilitia_Assault.labelFemalePlural>
+</LanguageData>

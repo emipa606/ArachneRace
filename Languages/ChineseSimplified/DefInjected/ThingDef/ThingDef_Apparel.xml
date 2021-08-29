@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Arachne_Armor.label>阿拉克涅战斗盔甲</Arachne_Armor.label>
+  <Arachne_Armor.description>传统的阿拉克涅战甲，由金属锻铸成型. \n *护甲强度取决于使用的材料.</Arachne_Armor.description>
+  <Arachne_Armor_Helmet.label>阿拉克涅战斗头盔</Arachne_Armor_Helmet.label>
+  <Arachne_Armor_Helmet.description>传统的阿拉克涅战甲，由金属锻铸成型. \n *护甲强度取决于使用的材料.</Arachne_Armor_Helmet.description>
+  <Arachne_Power_Armor.label>阿拉克涅刺客盔甲</Arachne_Power_Armor.label>
+  <Arachne_Power_Armor.description>阿拉克涅抹杀者的轻型动力甲.金属材料表面与其下的塑钢装甲片可以非常有效的抵御攻击.神经模因传动装置允许穿戴者及时在穿戴装甲时依旧行动迅速.\n\n这种装甲经常被阿拉克涅抹杀者使用.\n *护甲强度取与使用的材料无关.只与外观有关.</Arachne_Power_Armor.description>
+  <Arachne_Power_Helmet.label>阿拉克涅刺客头盔</Arachne_Power_Helmet.label>
+  <Arachne_Power_Helmet.description>阿拉克涅抹杀者的装甲头盔.金属材料表面与其下的塑钢装甲片可以非常有效的抵御攻击.\n\n这种装甲经常被阿拉克涅抹杀者使用.\n *护甲强度取与使用的材料无关.只与外观有关.</Arachne_Power_Helmet.description>
+</LanguageData>
