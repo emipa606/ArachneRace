@@ -18,4 +18,10 @@
     <li IfModActive="goudaquiche.BloodAndStains">BnSPatch/1.3</li>
     <li IfModActive="neronix17.toolbox">021Toolbox/1.3</li>
   </v1.3>
+  <v1.4>
+    <li>/</li>
+    <li>1.4</li>
+    <li IfModActive="goudaquiche.BloodAndStains">BnSPatch/1.4</li>
+    <li IfModActive="neronix17.toolbox">021Toolbox/1.4</li>
+  </v1.4>
 </loadFolders>

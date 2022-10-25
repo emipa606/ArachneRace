@@ -1,25 +1,19 @@
 # ArachneRace
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of moronics mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1589454687
 
 - As previous versions the mod needs https://steamcommunity.com/sharedfiles/filedetails/?id=1660622094][O21] Toolbox for regen to work, can be run without the toolbox if you dont want regen
+- Added Chinese translation, thanks Dylan Meteor
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+For a more vanilla look, check out https://steamcommunity.com/sharedfiles/filedetails/?id=2807645373]TasteOfVanilla-ish Arachne Race by IcyCheeseCake
 
+![Image](https://i.imgur.com/pufA0kM.png)
 
-[table]
-    [tr]
-        [td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-        [td]https://github.com/emipa606/ArachneRace]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-    [/tr]
-[/table]
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 1.1 and 1.2 version requires [O21] Toolbox for regen to work, can be run without the toolbox if you dont want regen
 Regen have 1 flat stage, and it heals and regrows limb
@@ -82,7 +76,7 @@ Somebody made compatibility patch for Arachne
 
 KNOWN ISSUE
 - Very rarely theres a graphical bug on dead or down arachne, body detach from spider body or both the detach body spinning independently. I've only seen this happen twice.
-- Traps gender - Its not supposed to spawn male arachne, but it may happen, and if it did, Grats! You got yourself traps.
+- Gender - Its not supposed to spawn male arachne, but it may happen.
 
 #  Error ? 
 
@@ -115,7 +109,7 @@ Github 1.0, Backup/Last Version
 
 https://github.com/syth3sis/Arachne-Race-1.0
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 

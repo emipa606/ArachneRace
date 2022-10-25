@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Arachne_Male_Average_Normal</defName>
+    <graphicPath>Things/Arachne/Heads/Male_Average_Normal</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Arachne_Male_Average_Pointy</defName>
+    <graphicPath>Things/Arachne/Heads/Male_Average_Pointy</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Arachne_Male_Average_Wide</defName>
+    <graphicPath>Things/Arachne/Heads/Male_Average_Wide</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="NarrowBase">
+    <defName>Arachne_Male_Narrow_Normal</defName>
+    <graphicPath>Things/Arachne/Heads/Male_Narrow_Normal</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="NarrowBase">
+    <defName>Arachne_Male_Narrow_Pointy</defName>
+    <graphicPath>Things/Arachne/Heads/Male_Narrow_Pointy</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="NarrowBase">
+    <defName>Arachne_Male_Narrow_Wide</defName>
+    <graphicPath>Things/Arachne/Heads/Male_Narrow_Wide</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Arachne_Female_Average_Normal</defName>
+    <graphicPath>Things/Arachne/Heads/Female_Average_Normal</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Arachne_Female_Average_Pointy</defName>
+    <graphicPath>Things/Arachne/Heads/Female_Average_Pointy</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Arachne_Female_Average_Wide</defName>
+    <graphicPath>Things/Arachne/Heads/Female_Average_Wide</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="NarrowBase">
+    <defName>Arachne_Female_Narrow_Normal</defName>
+    <graphicPath>Things/Arachne/Heads/Female_Narrow_Normal</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="NarrowBase">
+    <defName>Arachne_Female_Narrow_Pointy</defName>
+    <graphicPath>Things/Arachne/Heads/Female_Narrow_Pointy</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="NarrowBase">
+    <defName>Arachne_Female_Narrow_Wide</defName>
+    <graphicPath>Things/Arachne/Heads/Female_Narrow_Wide</graphicPath>
+    <gender>Female</gender>
+  </HeadTypeDef>
+</Defs>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingCategoryDef>
+    <defName>Main_ArachneArmor</defName>
+    <label>Arachne Armor</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>ArachneApparel</defName>
+    <label>arachne apparel</label>
+    <parent>Main_ArachneArmor</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>ArachnePlate</defName>
+    <label>arachne battle armor</label>
+    <parent>Main_ArachneArmor</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>ArachnePower</defName>
+    <label>arachne power armor</label>
+    <parent>Main_ArachneArmor</parent>
+  </ThingCategoryDef>
+</Defs>
