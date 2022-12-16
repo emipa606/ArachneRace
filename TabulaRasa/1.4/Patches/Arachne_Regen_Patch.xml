@@ -14,7 +14,7 @@
       <li Class="PatchOperationAddModExtension">
         <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Arachne"]</xpath>
         <value>
-          <li Class="O21Toolbox.AutoHeal.DefModExtension_AutoHealProps">
+          <li Class="TabulaRasa.DefModExt_AutoHealProps">
             <!-- Ticks between attempting to heal. -->
             <healTicks>2000</healTicks>
             <!-- Ticks between attempting to regrow. -->

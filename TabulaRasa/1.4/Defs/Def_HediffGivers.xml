@@ -3,7 +3,7 @@
   <HediffGiverSetDef>
     <defName>Arachne_Regen_Giver</defName>
     <hediffGivers>
-      <li Class="O21Toolbox.HediffGiver_Racial">
+      <li Class="TabulaRasa.HediffGiver_Racial">
         <hediff>Arachne_Regen</hediff>
       </li>
     </hediffGivers>

@@ -4,24 +4,24 @@
     <li>/</li>
     <li>1.1</li>
     <li IfModActive="goudaquiche.BloodAndStains">BnSPatch/1.2</li>
-    <li IfModActive="neronix17.toolbox">021Toolbox/1.1</li>
+    <li IfModActive="neronix17.toolbox">TabulaRasa/1.1</li>
   </v1.1>
   <v1.2>
     <li>/</li>
     <li>1.2</li>
     <li IfModActive="goudaquiche.BloodAndStains">BnSPatch/1.2</li>
-    <li IfModActive="neronix17.toolbox">021Toolbox/1.2</li>
+    <li IfModActive="neronix17.toolbox">TabulaRasa/1.2</li>
   </v1.2>
   <v1.3>
     <li>/</li>
     <li>1.3</li>
     <li IfModActive="goudaquiche.BloodAndStains">BnSPatch/1.3</li>
-    <li IfModActive="neronix17.toolbox">021Toolbox/1.3</li>
+    <li IfModActive="neronix17.toolbox">TabulaRasa/1.3</li>
   </v1.3>
   <v1.4>
     <li>/</li>
     <li>1.4</li>
     <li IfModActive="goudaquiche.BloodAndStains">BnSPatch/1.4</li>
-    <li IfModActive="neronix17.toolbox">021Toolbox/1.4</li>
+    <li IfModActive="neronix17.toolbox">TabulaRasa/1.4</li>
   </v1.4>
 </loadFolders>
