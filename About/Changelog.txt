@@ -1,5 +1,8 @@
 # Changelog for ArachneRace
 
+1.4.4 - No more invisible pawns
+
+
 1.4.3 - Fixed gene-restrictions to not affect visuals, thanks to Razar on the HAR-discord
 
 
