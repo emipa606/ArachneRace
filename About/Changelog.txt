@@ -1,5 +1,8 @@
 # Changelog for ArachneRace
 
+1.4.5 - Some fix to the heads but not sure why one of them sometimes causes issues
+
+
 1.4.4 - No more invisible pawns
 
 

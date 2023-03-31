@@ -121,4 +121,4 @@ https://github.com/syth3sis/Arachne-Race-1.0
 -  If you have the solution for a problem, please post it to the GitHub repository.
 
 
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2571931604]Last updated 2023-03-30
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2571931604]Last updated 2023-03-31
