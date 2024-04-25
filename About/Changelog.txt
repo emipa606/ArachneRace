@@ -1,5 +1,8 @@
 # Changelog for ArachneRace
 
+1.4.7 - Last update, added end-of-life message
+
+
 1.4.6 - Found the issue with the missing head-graphics
 
 

@@ -5,12 +5,12 @@
 Update of moronics mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1589454687
 
-- As previous versions the mod needs https://steamcommunity.com/sharedfiles/filedetails/?id=1660622094][O21] Toolbox for regen to work, can be run without the toolbox if you dont want regen
+- [strike]As previous versions the mod needs https://steamcommunity.com/sharedfiles/filedetails/?id=1660622094]Tabula Rasa for regen to work, can be run without the toolbox if you dont want regen[/strike] As Tabula Rasa have removed its support for HAR races, Zaljerem have made a https://steamcommunity.com/sharedfiles/filedetails/?id=3145943825]patch that uses the Community Framework instead.
 - Added Chinese translation, thanks Dylan Meteor
 
 For a more vanilla look, check out https://steamcommunity.com/sharedfiles/filedetails/?id=2807645373]TasteOfVanilla-ish Arachne Race by IcyCheeseCake
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://i.imgur.com/KFjAmff.png)
 
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
@@ -115,10 +115,13 @@ https://github.com/syth3sis/Arachne-Race-1.0
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib and command Ctrl+F12
+-  Post your error-log using https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib or the standalone https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader and command Ctrl+F12
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+-  Use https://github.com/RimSort/RimSort/releases/latest]RimSort to sort your mods
 
 
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2571931604]Last updated 2023-04-01
+
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2571931604]![Image](https://img.shields.io/github/v/release/emipa606/ArachneRace?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
+

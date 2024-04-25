@@ -28,12 +28,12 @@
 Update of moronics mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1589454687
 
-- As previous versions the mod needs [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1660622094][O21] Toolbox[/url] for regen to work, can be run without the toolbox if you dont want regen
+- [strike]As previous versions the mod needs [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1660622094]Tabula Rasa[/url] for regen to work, can be run without the toolbox if you dont want regen[/strike] As Tabula Rasa have removed its support for HAR races, Zaljerem have made a [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3145943825]patch[/url] that uses the Community Framework instead.
 - Added Chinese translation, thanks Dylan Meteor
 
 For a more vanilla look, check out [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2807645373]TasteOfVanilla-ish Arachne Race[/url] by IcyCheeseCake
 
-[img]https://i.imgur.com/pufA0kM.png[/img]
+[img]https://i.imgur.com/KFjAmff.png[/img]
 
 [table]
     [tr]
@@ -144,10 +144,13 @@ https://github.com/syth3sis/Arachne-Race-1.0
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
-[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader[/url] and command Ctrl+F12
 [*] For best support, please use the Discord-channel for error-reporting.
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
+[*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
 [/list]
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2571931604]Last updated 2023-04-01[/url]</description>
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2571931604][img]https://img.shields.io/github/v/release/emipa606/ArachneRace?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url]</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.4.7</modVersion>
 </ModMetaData>
